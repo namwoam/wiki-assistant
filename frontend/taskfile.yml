@@ -4,7 +4,7 @@ tasks:
     cmds:
     - poetry run streamlit run chat.py --server.port 8501 --server.address 0.0.0.0
     desc: "Start the Streamlit frontend"
-  install-deps:
+  install:
     cmds:
     - poetry install
     desc: "Install project dependencies using Poetry"
